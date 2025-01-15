@@ -6,6 +6,8 @@ this lab and I'll be using splunk as the SIEM. I'll use sysmon and
 atomic red team as well. Below is diagram:
 ![Capture](https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/Project%20Media/media/image11.png){width="7.635416666666667in"
 height="0.6062248468941382in"}
+<img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/Project%20Media/media/image11.png" width="300" height="auto" />
+
 
 **VM Installation:**
 
