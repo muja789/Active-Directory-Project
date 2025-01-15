@@ -8,6 +8,7 @@ this lab and I'll be using splunk as the SIEM. I'll use sysmon and
 atomic red team as well. Below is diagram:
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image11.png" width="557" height="424" />
+
 ## VM Installation:
 
 The first step is to install total of four VM.
