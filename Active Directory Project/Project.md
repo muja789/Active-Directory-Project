@@ -166,6 +166,7 @@ failed login attempt happened.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image20.png" width="608" height="418" />
 
+#
 Found the successful logged one.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image18.png" width="612" height="211" />
@@ -174,6 +175,8 @@ Here the Source Address and the Workstation Name shows the attacker
 machine IP address and name.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image4.png" width="620" height="212" />
+
+#
 
 ## Telemetry Generation and Log Investigation:
 
