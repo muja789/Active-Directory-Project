@@ -84,26 +84,22 @@ config file.
 
 Lets check on the splunk that the logs are being generated from this two
 machines.
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image19.png" width="752" height="279" />
-![](Project Media/media/image19.png){width="7.833333333333333in"
-height="2.903986220472441in"}
 
 Lets configure the Active Directory machine now. Firstly open the server
 manager.
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image12.png" width="430" height="279" />
-![](Project Media/media/image12.png){width="4.473958880139983in"
-height="2.903219597550306in"}
 
 Then from the manage option selecting "Add roles and Features" and start
 setting up.
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image5.png" width="440" height="286" />
-![](Project Media/media/image5.png){width="4.584421478565179in"
-height="2.9721030183727035in"}
 
 Then from the flag option promote this server to domain controller
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image9.png" width="440" height="284" />
-![](Project Media/media/image9.png){width="4.578125546806649in"
-height="2.9530971128608923in"}
 
 Select "add a new forest" from the next window and complete the setup.
 The machine will restart and active directory domain controller
@@ -112,20 +108,16 @@ installation is done. Now let\'s add some users.
 Open the tools section, then open active directory users and computers.
 I have created two Organizational Units named HR and IT . Then added one
 user in each Unit.
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image17.png" width="532" height="305" />
-![](Project Media/media/image17.png){width="5.536458880139983in"
-height="3.1770833333333335in"}
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image7.png" width="331" height="236" /> <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image14.png" width="342" height="244" />
-![](Project Media/media/image7.png){width="3.4418219597550306in"
-height="2.4524300087489066in"}![](Project Media/media/image14.png){width="3.5632239720034997in"
-height="2.5395352143482066in"}
 
 Now for the client machine changed the dns server IP to the Domain
 controller machines IP. Added this client machine into the domain from
 advance system settings.
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image6.png" width="593" height="330" />
-![](Project Media/media/image6.png){width="6.171875546806649in"
-height="3.4270833333333335in"}
 
 After rebooting I logged in using any user credential from that two I
 created earlier in Active Directory.
