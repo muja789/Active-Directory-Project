@@ -5,8 +5,7 @@ attacks and monitor them in a SIEM. I'll be using virtual machines for
 this lab and I'll be using splunk as the SIEM. I'll use sysmon and
 atomic red team as well. Below is diagram:
 
-![]([Project Media/media/image11.png]([https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/Project%20Media/media/image1.png](https://raw.githubusercontent.com/muja789/Active-Directory-Project/refs/heads/main/Active%20Directory%20Project/Project%20Media/media/image1.png))){width="5.807292213473316in"
-height="4.416666666666667in"}
+![Capture]([https://github.com/blwhit/EDR-Attack-and-Defense/assets/141170960/75977c64-7faa-4b38-a5ad-1824cec2e508](https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/Project%20Media/media/image11.png))
 
 **VM Installation:**
 
