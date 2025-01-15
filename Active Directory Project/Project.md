@@ -16,8 +16,7 @@ The first step is to install total of four VM.
 
 2.  Installing a Windows server as Active directory domain controller
 
-3.  Installing a ubuntu live server(22.04.x version is preferred) as
-    > Splunk server
+3.  Installing a ubuntu live server(22.04.x version is preferred) as Splunk server
 
 4.  Installing a Kali linux as Attacker
 
