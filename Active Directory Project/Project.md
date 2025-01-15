@@ -93,6 +93,7 @@ machines.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image19.png" width="752" height="279" />
 
+#
 Lets configure the Active Directory machine now. Firstly open the server
 manager.
 
@@ -120,7 +121,7 @@ user in each Unit.
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image7.png" width="331" height="236" /> <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image14.png" width="342" height="244" />
 #
 
-Now for the client machine changed the dns server IP to the Domain
+Now for the client machine I have changed the dns server IP to the Domain
 controller machines IP. Added this client machine into the domain from
 advance system settings.
 
@@ -131,11 +132,13 @@ created earlier in Active Directory.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image22.png" width="603" height="312" />
 
+#
 Now for the attacker machine(Kali) logged in using default credential.
 Lets install crowbar.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image16.png" width="464" height="248" />
 
+#
 Then installed Atomic Red Team using the following command:
 
 IEX (IWR
@@ -144,6 +147,8 @@ IEX (IWR
 Install-AtomicRedTeam -getAtomics
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image1.png" width="493" height="166" />
+
+#
 
 ## Attack and Log Investigation:
 
