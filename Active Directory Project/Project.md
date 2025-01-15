@@ -6,7 +6,7 @@ this lab and I'll be using splunk as the SIEM. I'll use sysmon and
 atomic red team as well. Below is diagram:
 #
 sultan
-![Capture]([https://github.com/blwhit/EDR-Attack-and-Defense/assets/141170960/75977c64-7faa-4b38-a5ad-1824cec2e508](https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/Project%20Media/media/image11.png)
+![Capture](https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/Project%20Media/media/image11.png)
 #
 **VM Installation:**
 
