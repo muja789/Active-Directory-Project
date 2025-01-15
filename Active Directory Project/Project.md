@@ -41,6 +41,8 @@ boot-start.
 Now downloaded Universal splunk forwarder and sysmon on both client and
 active directory machine.
 
+<img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image3.png" width="305" height="218.78" />
+<img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image10.png" width="354.24" height="211" />
 ![](Project Media/media/image3.png){width="3.1770833333333335in"
 height="2.278850612423447in"}
 ![](Project Media/media/image10.png){width="3.6919477252843396in"
