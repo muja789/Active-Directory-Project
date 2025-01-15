@@ -7,7 +7,6 @@ atomic red team as well. Below is diagram:
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image11.png" width="557" height="424" />
 
-
 **VM Installation:**
 
 The first step is to install total of four VM.
@@ -37,8 +36,7 @@ Now change the user to splunk and go to "/opt/splunk/bin" directory and
 start splunk. Set username and password for login. Then add splunk in
 boot-start.
 
-![](Project Media/media/image2.png){width="7.635416666666667in"
-height="0.6062248468941382in"}
+<img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image2.png" width="733" height="58.176" />
 
 Now downloaded Universal splunk forwarder and sysmon on both client and
 active directory machine.
