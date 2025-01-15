@@ -48,6 +48,7 @@ active directory machine.
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image3.png" width="305" height="218.78" />
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image10.png" width="354.24" height="211" />
 
+#
 Now create a file named 'inputs.conf' in "C:\\Program
 Files\\SplunkUniversalForwarder\\etc\\system\\local\\". Now edit that
 file:
