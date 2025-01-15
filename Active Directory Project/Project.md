@@ -123,15 +123,11 @@ After rebooting I logged in using any user credential from that two I
 created earlier in Active Directory.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image22.png" width="603" height="312" />
-![](Project Media/media/image22.png){width="6.276042213473316in"
-height="3.250764435695538in"}
 
 Now for the attacker machine(Kali) logged in using default credential.
 Lets install crowbar.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image16.png" width="464" height="248" />
-![](Project Media/media/image16.png){width="4.833333333333333in"
-height="2.5848917322834644in"}
 
 Then installed Atomic Red Team using the following command:
 
@@ -142,8 +138,6 @@ IEX (IWR
 Install-AtomicRedTeam -getAtomics
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image1.png" width="493" height="166" />
-![](Project Media/media/image1.png){width="5.135416666666667in"
-height="1.7344870953630795in"}
 
 **Attack and Log Investigation:**
 
@@ -154,41 +148,29 @@ On the client machine enabled the RDP and added the two users there. Its
 time to generate the brute force attack on the client pc using crowbar.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image15.png" width="583" height="253" />
-![](Project Media/media/image15.png){width="6.069690507436571in"
-height="2.6292213473315837in"}
 
 Found the brute force attack. Here I had total 50 password in my
 rockyou.txt including one correct password on the last line. So 49
 failed login attempt happened.
+
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image20.png" width="608" height="418" />
-![](Project Media/media/image20.png){width="6.328125546806649in"
-height="4.350586176727909in"}
 
 Found the successful logged one.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image18.png" width="612" height="211" />
-![](Project Media/media/image18.png){width="6.369792213473316in"
-height="2.1875in"}
 
 Here the Source Address and the Workstation Name shows the attacker
 machine IP address and name.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image4.png" width="620" height="212" />
-![](Project Media/media/image4.png){width="6.453125546806649in"
-height="2.2023337707786528in"}
 
 **Telemetry Generation and Log Investigation:**
 
 Now generating some telemetry using Atomic Red Team,
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image8.png" width="716" height="384" />
-![](Project Media/media/image8.png){width="7.447916666666667in"
-height="4.001389982502187in"}
 
 I have generated telemetry using atomic red team that creates a user.
 The username is NewLocalUser. Below is the log that was generated.
 
 <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image21.png" width="660" height="269" /> <img src="https://github.com/muja789/Active-Directory-Project/blob/main/Active%20Directory%20Project/media/image13.png" width="660" height="193" />
-![](Project Media/media/image21.png){width="6.875in"
-height="2.803131014873141in"}![](Project Media/media/image13.png){width="6.869792213473316in"
-height="2.0104166666666665in"}
